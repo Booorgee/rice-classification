@@ -1,0 +1,18 @@
+tf_efficientnetv2_s.in1k on val (787 images)
+
+Confusion matrix (rows=true, cols=pred), order: ['defects', 'dinorado', 'jasmine', 'malagkit']
+[[ 83   1   0   0]
+ [  1 259  76   2]
+ [  0  43 189   2]
+ [  0   0   0 131]]
+
+              precision    recall  f1-score   support
+
+     defects     0.9881    0.9881    0.9881        84
+    dinorado     0.8548    0.7663    0.8081       338
+     jasmine     0.7132    0.8077    0.7575       234
+    malagkit     0.9704    1.0000    0.9850       131
+
+    accuracy                         0.8412       787
+   macro avg     0.8816    0.8905    0.8847       787
+weighted avg     0.8462    0.8412    0.8417       787

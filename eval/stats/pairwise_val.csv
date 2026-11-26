@@ -1,0 +1,7 @@
+model_A,model_B,acc_A,acc_B,diff_A_minus_B,diff_ci,A_right_B_wrong,A_wrong_B_right,z,p,p_holm,significant_0.05
+DenseNet121-SA,DenseNet121-CP,0.8691,0.9428,-0.0737,"[-0.084, -0.066]",19,77,-5.92,1.86e-09,9.31e-09,yes
+DenseNet121-SA,EfficientNetV2-S-SA,0.8691,0.8412,0.028,"[-0.007, 0.062]",74,52,1.96,6.09e-02,6.09e-02,no
+DenseNet121-SA,EfficientNetV2-S-CP,0.8691,0.906,-0.0368,"[-0.057, -0.013]",47,76,-2.615,1.13e-02,2.26e-02,yes
+DenseNet121-CP,EfficientNetV2-S-SA,0.9428,0.8412,0.1017,"[0.067, 0.134]",108,28,6.86,2.78e-12,1.67e-11,yes
+DenseNet121-CP,EfficientNetV2-S-CP,0.9428,0.906,0.0368,"[0.019, 0.054]",50,21,3.442,7.67e-04,2.30e-03,yes
+EfficientNetV2-S-SA,EfficientNetV2-S-CP,0.8412,0.906,-0.0648,"[-0.103, -0.022]",29,80,-4.885,1.08e-06,4.32e-06,yes

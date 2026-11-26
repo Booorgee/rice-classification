@@ -1,0 +1,21 @@
+{
+  "model": "tf_efficientnetv2_s.in1k",
+  "classes": [
+    "defects",
+    "dinorado",
+    "jasmine",
+    "malagkit"
+  ],
+  "img": 224,
+  "mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "color": "on"
+}

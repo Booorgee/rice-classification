@@ -1,0 +1,26 @@
+{
+  "src": "DATASET",
+  "dst": "grains",
+  "classes": [
+    "DINORADO",
+    "JASMINE",
+    "MALAGKIT",
+    "DEFECTS"
+  ],
+  "defect_class": "DEFECTS",
+  "val_frac": 0.15,
+  "test_frac": 0.15,
+  "seed": 42,
+  "coin_mm": 23.0,
+  "crop_mm": 11.0,
+  "crop_px": 224,
+  "min_area_mm2": 4.0,
+  "max_area_mm2": 25.0,
+  "min_len_mm": 3.5,
+  "max_len_mm": 10.5,
+  "defect_min_area_mm2": 1.5,
+  "defect_min_len_mm": 1.5,
+  "link_mm": 15.0,
+  "keep_background": false,
+  "limit": 0
+}

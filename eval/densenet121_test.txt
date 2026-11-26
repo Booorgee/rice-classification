@@ -1,0 +1,18 @@
+densenet121 on test (808 images)
+
+Confusion matrix (rows=true, cols=pred), order: ['defects', 'dinorado', 'jasmine', 'malagkit']
+[[ 67   0   0   0]
+ [  0 210 120   0]
+ [  0  37 169   1]
+ [  2   0   0 202]]
+
+              precision    recall  f1-score   support
+
+     defects     0.9710    1.0000    0.9853        67
+    dinorado     0.8502    0.6364    0.7279       330
+     jasmine     0.5848    0.8164    0.6815       207
+    malagkit     0.9951    0.9902    0.9926       204
+
+    accuracy                         0.8020       808
+   macro avg     0.8503    0.8607    0.8468       808
+weighted avg     0.8288    0.8020    0.8042       808

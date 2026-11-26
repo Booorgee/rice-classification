@@ -1,0 +1,21 @@
+Model,Class,Precision,Recall,F1-score,Accuracy,Cohen's kappa
+DenseNet121-SA,Broken,0.971,1.000,0.985,80.20%,0.722
+,Dinorado,0.850,0.636,0.728,,
+,Jasmine,0.585,0.816,0.681,,
+,Malagkit,0.995,0.990,0.993,,
+,Macro average,0.850,0.861,0.847,,
+DenseNet121-CP,Broken,0.943,0.985,0.964,87.62%,0.825
+,Dinorado,0.915,0.782,0.843,,
+,Jasmine,0.722,0.879,0.793,,
+,Malagkit,0.990,0.990,0.990,,
+,Macro average,0.893,0.909,0.897,,
+EfficientNetV2-S-SA,Broken,0.957,1.000,0.978,78.34%,0.697
+,Dinorado,0.828,0.612,0.704,,
+,Jasmine,0.564,0.783,0.656,,
+,Malagkit,0.976,0.990,0.983,,
+,Macro average,0.831,0.846,0.830,,
+EfficientNetV2-S-CP,Broken,0.944,1.000,0.971,86.14%,0.805
+,Dinorado,0.914,0.742,0.819,,
+,Jasmine,0.688,0.884,0.774,,
+,Malagkit,0.990,0.985,0.988,,
+,Macro average,0.884,0.903,0.888,,
